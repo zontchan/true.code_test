@@ -22,8 +22,7 @@
       display: flex;
       align-items: center;
       flex-direction: row;
-      gap: 33px;
-
+      gap: 30px;
     }
     &-button{
       text-transform: uppercase;
@@ -32,6 +31,7 @@
       font-weight: 600;
       color: $main-dark-color;
       background-color: $main-light-color;
+      margin-left: 10px;
     }
     &-dropdown{
       position: relative;
