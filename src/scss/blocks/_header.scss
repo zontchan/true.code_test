@@ -49,6 +49,7 @@
     &__nav{
       &-list{
         opacity: 0;
+        visibility: hidden;
         position: absolute;
         top: 40px;
         left: -105px;
@@ -62,6 +63,7 @@
       &-dropdown{
         &:hover &-list{
           opacity: 1;
+          visibility: visible;
         }
         &:hover &-button{
           svg{
