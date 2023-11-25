@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/true.code_test/static/css/main.940f06c4.css",
+    "main.js": "/true.code_test/static/js/main.4055348e.js",
+    "static/media/Mars.mp4": "/true.code_test/static/media/Mars.4d2d975608ebc4980449.mp4",
+    "static/media/bg-stars.png": "/true.code_test/static/media/bg-stars.8179b5d1cd4aac8cebb3.png",
+    "static/media/bg-haze.png": "/true.code_test/static/media/bg-haze.32246175f691eeb8179f.png",
+    "static/media/Montserrat-Bold.ttf": "/true.code_test/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/true.code_test/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
+    "static/media/Montserrat-Medium.ttf": "/true.code_test/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
+    "static/media/Montserrat-Regular.ttf": "/true.code_test/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/BebasNeue.ttf": "/true.code_test/static/media/BebasNeue.892eeaa308d220d41508.ttf",
+    "static/media/logo.svg": "/true.code_test/static/media/logo.6cea588b217aaf5a46bda3d3d97fdb54.svg",
+    "index.html": "/true.code_test/index.html",
+    "main.940f06c4.css.map": "/true.code_test/static/css/main.940f06c4.css.map",
+    "main.4055348e.js.map": "/true.code_test/static/js/main.4055348e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.940f06c4.css",
+    "static/js/main.4055348e.js"
+  ]
+}
