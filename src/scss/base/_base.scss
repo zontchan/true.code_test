@@ -1,0 +1,42 @@
+body{
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 16px;
+  color: $main-light-color;
+}
+.wrapper{
+  position: relative;
+  width: 100%;
+  min-height: 1024px;
+  background-color: $main-dark-color;
+
+}
+
+.container{
+  max-width: 1260px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.button {
+  transition: color $duration ease-out, background-color $duration ease-out;
+
+  &:hover {
+    color: $main-light-color;
+    background-color: $accent-color-light;
+
+  }
+  &:active{
+    background-color: $accent-color-dark;
+  }
+}
+a{
+  color: $main-light-color;
+  transition: color $duration ease-out;
+  &:hover{
+    color: $accent-color-light;
+  }
+  &:active{
+    color: $accent-color-dark;
+  }
+}

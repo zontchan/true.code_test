@@ -1,0 +1,45 @@
+.main{
+
+  &__container{
+    position: relative;
+    h2{
+      text-transform: uppercase;
+      padding-left: 30px;
+      font-size: 35px;
+      letter-spacing: 1.8px;
+      color: $accent-color-light;
+      animation: show 2s 1 forwards;
+    }
+  }
+}
+
+@keyframes show {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@include mediaTablet{
+  .main {
+    &__container {
+      h2 {
+        padding-left: 25px;
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+@include mediaMobile{
+  .main {
+    &__container {
+      h2 {
+        padding-left: 15px;
+        font-size: 20px;
+      }
+    }
+  }
+}

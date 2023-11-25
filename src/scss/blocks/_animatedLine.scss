@@ -1,0 +1,49 @@
+.animate-svg{
+  overflow: hidden;
+  position: absolute;
+  top: -10px;
+  left: -3px;
+  width:10px;
+  height:605px
+}
+
+.check {
+  transform: translateY(-100%);
+  @media (min-width: 555px) {
+    transform: translateY(-99%);
+  }
+  animation: drawLine 1s forwards linear;
+}
+
+@keyframes drawLine {
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.circle-top {
+  opacity: 1;
+}
+
+.circle-bottom {
+  opacity: 0;
+  animation: fadeIn 1s 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@include mediaTablet{
+  .animate-svg{
+    height:460px
+  }
+}
+
+@include mediaMobile{
+  .animate-svg{
+    height:300px;
+  }
+}

@@ -1,0 +1,52 @@
+.haze{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  background-image: url("../../assets/img/bg-haze.png");
+  overflow: hidden;
+
+  animation-name: slideHaze;
+  animation-duration: 14s;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+@keyframes slideHaze {
+  0% {
+    opacity: 0;
+    background-position: 300px;
+  }
+  5% {
+    opacity: 0.2;
+    background-position: -300px;
+  }
+  15%{
+    opacity: 0.3;
+    background-position: -1500px;
+  }
+  35%{
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 0;
+  }
+  55%{
+    opacity: 0.4;
+  }
+  60%{
+    opacity: 0.5;
+  }
+   80%{
+     opacity: 0.3;
+     background-position: -6500px;
+   }
+  100%{
+    opacity: 0;
+    background-position: -7000px;
+  }
+}
